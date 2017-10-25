@@ -1,0 +1,133 @@
+{
+    "identite":{
+        "name":"miguel",
+        "lastName":"fernandes",
+        "job":"Développeur Front-end",
+        "citation":null,
+        "resume":null,
+        "avatar":"../src/meBg2.png"
+    },
+    "competences":
+    [{
+        "title":"Web",
+        "list":["HTML5","CSS3","Javascript","PHP"],
+        "logo":null,
+        "show":true
+    },{ 
+        "title":"Langages",
+        "list":["Python","Java","C#","SQL"],
+        "logo":null,
+        "show":true
+    },{
+        "title":"Data Base",
+        "list":["Mysql","SQLserver"],
+        "logo":null,
+        "show":true
+    },{
+        "title":"Intégration",
+        "list":["Git","GitHub"],
+        "logo":null,
+        "show":true
+    },{
+        "title":"Anlyse",
+        "list":["Merise","UML","Agile"],
+        "logo":null,
+        "show":true 
+    },{
+        "title":"Langues",
+        "list":["Anglais (technique)","Portugais (courant)"],
+        "logo":null,
+        "show":true
+    }],
+    "experiences":
+    [{
+        "date":{"debut":"2013-10-01","fin":"2016-09-01"},
+        "poste":"Dj / Promoteur d'événement",
+        "entreprise":{"nom":"Cubaïla Café","nomCourt":"Cubaïla"},
+        "localisation":"Marseille",
+        "competences":
+        [{
+            "titre":null,
+            "show":true
+        }]
+    },{
+        "date":{"debut":"2011-05-06","fin":"2015-09-01"},
+        "poste":"Trésorier et cofondateur",
+        "entreprise":{"nom":"Association Marythmo events","nomCourt":"Marythmo"},
+        "localisation":"Marseille",
+        "competences":
+        [{
+            "titre":null,
+            "show":true
+        }]
+    },{
+        "date":{"debut":"2007-05-01","fin":"2010-06-01"},
+        "poste":"Divers activitées",
+        "entreprise":{"nom":"Ordina13-Bull"},
+        "localisation":"Marseille",
+        "competences":
+        [{
+            "titre":null,
+            "show":false
+        }]
+    },{
+        "date":{"debut":"2006-09-01","fin":"2007-11-01"},
+        "poste":"Technicien déploiement",
+        "entreprise":{"nom":"Ordina13-Bull","nomCourt":"Ordina13-Bull"},
+        "localisation":"Marseille",
+        "competences":
+        [{
+            "title":null,
+            "show":true
+        }]
+    },{
+        "date":{"debut":"2006-07-01","fin":"2007-04-01"},
+        "poste":"Agent logistique",
+        "compagnie":"Alliance Healthcare",
+        "entreprise":{"nom":"Alliance Healthcare","nomCourt":"Alliance Healthcare"},
+        "localisation":"Marseille",
+        "competences":
+        [{
+            "title":null,
+            "show":false
+        }]
+    },{
+        "date":{"debut":"2005-06-01","fin":"2006-02-01"},
+        "poste":"Développeur PHP",
+        "entreprise":{"nom":"Kalisport","nomCourt":"Kalisport"},
+        "localisation":"Marseille",
+        "competences":
+        [{
+            "title":null,
+            "show":false
+        }]     
+    }],
+    "formations":[{
+        "date":{"debut":"2016-10-10","fin":"2017-09-01"},
+        "titre":"Certificat de programmeur d'applications web",
+        "organisme":{"nom":"Conservatoire national des arts et métiers","nomCourt":"CNAM"},
+        "localisation":"Aix-en-Provence",
+        "competences":
+        [{
+            "title":null,
+            "list":[null],
+            "logo":null,
+            "show":true
+        }]
+    },{
+        "date":{"debut":"2010-09-01","fin":"2011-03-01"},
+        "titre":"Licence Professionnelle Informatique",
+        "organisme":{"nom":"Université Paul Cézanne","nomCourt":null},
+        "localisation":"Marseille",
+        "competences":
+        [{
+            "title":null,
+            "list":["Organisation d'événements","Animation musicale","Création de support de communication"],
+            "logo":null,
+            "show":true
+        }]
+
+    }],
+    "extras":["IT","Musique","Danse"] 
+
+}

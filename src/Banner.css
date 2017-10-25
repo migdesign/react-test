@@ -1,0 +1,23 @@
+.banner {
+    height: 60vh;
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.banner-small{
+    height: 50vh;
+    background: linear-gradient(-225deg, rgba(156, 74, 74, 0.6) 30%, rgba(46,46,46,0.5) 80%);
+    background-size: cover;
+    color: white;
+    text-align: center;
+   /* 
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;*/
+    margin: 0;
+    padding: 0;
+}

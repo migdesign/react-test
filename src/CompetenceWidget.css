@@ -1,0 +1,20 @@
+
+.container-widget{
+    border-bottom: 2px solid #494747;
+    padding: 2em;
+}
+.container-flex{
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    margin:1em; 
+}
+.card:hover{
+   box-shadow: 2px 4px 10px rgb(228, 225, 225);
+}
+
+
