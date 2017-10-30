@@ -11,23 +11,22 @@ export default class CompetenceWidget extends Component{
         return (
             <div className="container-widget">
                 <section className="container-flex">
-                    {this.props.allCompetence.map((header)=>{
-                        if(header.show===true){
-                        <div className="card w-40">
-                            <img src="http://unsplash.it/200/120/?random" alt="" />
-                           
-                                <CompetenceHeader name={header.title}/>
-                                <CompetenceAll listCompetence={header.list} /> 
-                            
-                            
-                        </div>}
-                    })}  
+                    {this.props.allCompetence.map((competence)=>{ 
+                        if(!competence.show){
+                            return null;
+                        }
+                        return(
+                            <div className="card w-40">                             
+                                <CompetenceHeader name={competence.title}/>
+                                <CompetenceAll listCompetence={competence.list} /> 
+                            </div>);
+                        })
+                    }  
                 </section>
             </div>);
     }
 
     render(){
-       
-       return this.getCompetenceWidget();
+       return (this.getCompetenceWidget());
     }
 }   

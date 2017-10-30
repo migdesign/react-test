@@ -37,7 +37,7 @@
         "title":"Langues",
         "list":["Anglais (technique)","Portugais (courant)"],
         "logo":null,
-        "show":true
+        "show":false
     }],
     "experiences":
     [{
@@ -47,7 +47,7 @@
         "localisation":"Marseille",
         "competences":
         [{
-            "titre":null,
+            "title":null,
             "show":true
         }]
     },{
